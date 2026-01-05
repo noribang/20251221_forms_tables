@@ -145,3 +145,32 @@ html, body {
     margin: auto; /* With display: flex it centers the item */
   }
   
+  /* sixth example */
+.equal-height-container {
+    max-width: 900px;
+    margin: 0 auto;
+    /* display: flex; */
+  }
+  
+  .first {
+    background-color: #FFF;
+    padding: 20px;
+    /* flex: 1; */
+  }
+  
+  .second {
+    background-color: yellow;
+    /* flex: 1; */
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+  
+  .second-a {
+    background-color: #c0dbe2;
+    /* flex: 1; */
+  }
+  
+  .second-b {
+    background-color: #cdf1c3;
+    /* flex: 1; */
+  }
