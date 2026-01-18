@@ -1,0 +1,14 @@
+.box-a {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box; /*width and height not include padding and border*/
+}
+.box-b {
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+}
