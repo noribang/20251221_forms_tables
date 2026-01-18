@@ -1,0 +1,75 @@
+/* html {
+    background-color: #FFF;
+} */
+html {
+    background-color: #869960;
+}
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+header {
+    padding: 20px 0 20px 0;
+    color: #617140;
+}
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+header p {
+    margin: 0;
+}
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+}
+/* Column 1. */
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+/* Column 2. */
+.sidebar {
+    width: 34%;
+    float: left;
+    background-color: #e5e9dc;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding: 20px 0 20px 0  ;
+}
+
+/* .fix {
+    clear: both;
+} */
+/* Clears float children in .content-area. */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
