@@ -1,0 +1,36 @@
+.box-a {
+    background-color: #cad282;
+    height: 150px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.box-b {
+    background-color: #d7aa49;
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+    border: 3px solid #000;
+    box-sizing: border-box; /* padding and border are included in the width and height */
+    margin-bottom: 20px;
+}
+.box-c {
+    background-color: #a27e30;
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+    border: 3px solid #000;
+    box-sizing: border-box; /* padding and border are included in the width and height */
+    margin-bottom: 20px;
+}
+.box-d {
+    background-color: #5d491f;
+    height: 150px;
+    width: 250px;
+    /* padding: auto; */
+    border: 3px solid #000;
+    box-sizing: border-box; /* padding and border are included in the width and height */
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 150px;
+}
